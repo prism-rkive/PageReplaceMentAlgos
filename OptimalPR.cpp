@@ -89,7 +89,7 @@ int main()
     cout << "Enter number of frames: ";
     cin >> frame;
 
-    cout << "\n--- Optimal Page Replacement Simulation ---\n";
+   
     int pageFaults = optimal(rs, frame);
     cout << "\nTotal Page Faults: " << pageFaults << endl;
 
